@@ -1,0 +1,6 @@
+prime 1299721 time 0.0
+prime 2750161 time 0.0
+prime 4256249 time 0.0
+prime 5800139 time 9.53674316406e-07
+prime 7368791 time 0.0
+prime 8960467 time 0.0
