@@ -20,8 +20,11 @@ impl StdinReader {
         let mut lines = lock.lines();
         lines.next();
     }
-    fn u32(&self) -> u32 {
-        self.line().parse::<u32>().unwrap()
+    fn usize(&self) -> usize {
+        self.line().parse::<usize>().unwrap()
+    }
+    fn vec_usize(&self) -> Vec<usize> {
+        self.line().split(' ').map(|s| s.parse::<usize>().unwrap()).collect()
     }
 }
 
